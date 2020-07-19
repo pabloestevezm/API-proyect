@@ -1,4 +1,4 @@
 from flask import Flask
 
-app_ = Flask(__name__)
+app = Flask(__name__)
 

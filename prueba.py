@@ -1,5 +1,5 @@
-from app import app_
+from src.app import app
 
-@app_.route('/')
+@app.route('/')
 def hello():
-    return '<h1>Hello!</h1>'
+    return '<h1>Hello from RENEDO!</h1>'
